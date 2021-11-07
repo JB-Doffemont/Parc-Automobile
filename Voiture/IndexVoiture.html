@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parc voiture</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>GESTION PARC AUTOMOBILE</h1>
+    </header>
+
+    <main>
+      <form class="formData">
+        <div class="choixBaseCouleur">
+            <label>Choisissez la couleur : </label>
+            <input class="couleur" name="choixCouleur" type="text"></input>
+        </div>
+      </br>
+      </br>
+        <div class="choixBasePuissance">
+          <label>Choisissez la puissance : </label>
+          <input class="puissance" name="choixPuissance" type="text"></input>
+        </div>
+    </br>
+    </br>
+      <div class="ChoixVoiture">
+          <label> Veuillez choisir un type de voiture : </label>
+          <select type="select" name="selectVoiture">
+            <option name="voiture" value="voiture">Voiture</option>
+            <option name="camion" value="camion">Camion</option>
+            <option name="commerciale" value="commerciale">
+              Commerciale
+            </option>
+          </select>
+          <button type="submit" class="buttonValider">VALIDER</button>
+        </form>
+    </br>
+    </br>
+          
+        
+     </div>
+        
+      <h2>VEHICULES SELECTIONNÉS</h2>
+      <div class="voitureChoisies">
+        
+      </div>
+    </main>
+
+    <script type="text/javascript" src="voiture.js"></script>
+  </body>
+</html>
